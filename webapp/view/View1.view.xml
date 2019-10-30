@@ -1,0 +1,26 @@
+<mvc:View controllerName="month.MonthDisplay.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					<VBox>
+					<Button text="January" press="month1"></Button>
+					<Button text="February" press="month2"></Button>
+					<Button text="March" press="month3"></Button>
+					<Button text="April" press="month4"></Button>
+					<Button text="May" press="month5"></Button>
+				<Button text="June" press="month6"></Button>
+				<Button text="July" press="month7"></Button>
+				<Button text="August" press="month8"></Button>
+				<Button text="September" press="month9"></Button>
+				<Button text="October" press="month10"></Button>
+				<Button text="November" press="month11"></Button>
+				<Button text="December" press="month12"></Button>
+				</VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
