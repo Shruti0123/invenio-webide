@@ -1,0 +1,19 @@
+{
+	"ecity":[
+		{
+			"city": "Mumbai"
+		},
+		{
+			"city": "Bengaluru"
+		},
+		{
+			"city": "Chennai"
+		},
+		{
+			"city": "Kolkata"
+		},
+		{
+			"city": "Pune"
+		}
+		]
+}

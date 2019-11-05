@@ -1,0 +1,43 @@
+<mvc:View controllerName="getempdetails.GetEmpDetails.controller.getView1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" 	xmlns:layout="sap.ui.layout"
+	xmlns:form="sap.ui.layout.form">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					<layout:Grid defaultSpan="L12 M12 S12">
+						<layout:content>
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" labelSpanM="12" labelSpanL="12" labelSpanXL="12" emptySpanL="6" emptySpanM="6">
+								<form:content>
+									<Label text="EmpName" labelFor="multiInput"/>
+									<Input
+										id="input1"
+										showValueHelp="true"
+										valueHelpOnly="true"
+										valueHelpRequest=".onValueHelpRequested"	>
+											</Input>
+									<Label text="EmpCity" labelFor="multiInput"/>
+									<Input
+										id="input2"
+										showValueHelp="true"
+										valueHelpOnly="true"
+										valueHelpRequest=".onValueHelpRequested"	>	
+										</Input>
+										
+								<!--		suggestionItems="{
+												path: '/ProductCollection',
+												sorter: { path: 'Name' }
+											}"-->
+																
+					<!--	<core:Item key="{ProductId}" text="{Name} ({ProductId})" />-->
+				
+				</form:content>
+			</form:SimpleForm>
+		</layout:content>
+	</layout:Grid>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
