@@ -1,11 +1,19 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
+<<<<<<< HEAD
 	"getempdetails/GetEmpDetails/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
 	return UIComponent.extend("getempdetails.GetEmpDetails.Component", {
+=======
+	"month/MonthDisplay/model/models"
+], function (UIComponent, Device, models) {
+	"use strict";
+
+	return UIComponent.extend("month.MonthDisplay.Component", {
+>>>>>>> refs/heads/master
 
 		metadata: {
 			manifest: "json"
